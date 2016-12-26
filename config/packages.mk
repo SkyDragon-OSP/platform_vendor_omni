@@ -15,7 +15,6 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     OmniStyle \
     QuickSearchBox \
-    OmniClockOSS \
     MusicFX
 
 

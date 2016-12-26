@@ -64,8 +64,11 @@ PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
     vendor/omni/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/omni/prebuilt/bin/50-hosts.sh:system/addon.d/50-hosts.sh \
-    vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist
-
+    vendor/omni/prebuilt/bin/blacklist:system/addon.d/blacklist \
+    vendor/omni/prebuilt/etc/init.sd.rc:root/init.sd.rc \
+    vendor/omni/prebuilt/etc/skydragon.conf:system/etc/skydragon.conf \
+    vendor/omni/prebuilt/etc/99SKYD:system/etc/init.d/99SKYD
+    
 # Backup Services whitelist
 PRODUCT_COPY_FILES += \
     vendor/omni/prebuilt/etc/sysconfig/backup.xml:system/etc/sysconfig/backup.xml
